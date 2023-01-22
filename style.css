@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 77px;
+    height: 100vh;
+    background-color: rgba(149, 60, 167, 0.508);
+    transition: 1.2s;
+}
+header p {
+    text-align: center;
+    color: rgba(52, 12, 59, 0.508);
+    margin: 10px;
+}
+.menu {
+    list-style: none;
+    width: 65px;
+    padding: 0;
+}
+.menu li {
+    height: 70px;
+}
+.menu li a {
+    text-decoration: none;
+    color: rgba(50, 7, 58, 0.508);
+    background-color: rgba(167, 93, 182, 0.508);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 1.2s;
+}
+.menu li a:hover {
+    background-color: rgba(113, 21, 129, 0.508);
+}
+.menu li a img {
+    height: 50px;
+    
+}
+.menu span {
+    visibility: hidden;
+    transition-delay: 0.22s;
+    transition: 0.3s;
+}
+header:hover {
+    width: 250px;
+}
+header:hover span {
+    visibility: visible;
+    transition-delay: 0.22s;
+}
+header:hover a {
+    width: 250px;
+}
+header .menu {
+    padding-left: 10px;
+    padding-right: 0;
+    transition: 1.2s;
+}
+header:hover .menu {
+    padding-left: 0;
+}
+body {
+    padding-left: 200px;
+    padding-right: 20px;
+    background-color: rgba(183, 76, 204, 0.508);
+}
+h1 {
+    text-align: center;
+    color: rgb(94, 18, 138);
+    margin-top: 30px;
+}
+h3 {
+    text-align: center;
+    color: rgb(68, 6, 104);
+    margin-top: 30px;
+}
+.space {
+    background-image: url(JWST-Neptune-closeup-1380x746.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 400px;
+    height: 600px;
+}
+pre {
+    margin-top: 30px;
+}
+::-webkit-scrollbar {
+    background-color: rgb(204, 156, 172);
+    height: 5px;
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(170, 76, 107);
+    border-radius: 2px;
+}
